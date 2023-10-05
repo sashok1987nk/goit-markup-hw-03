@@ -59,7 +59,6 @@ h6 {
   letter-spacing: 0.03em;
   color: #2e2f42;
 }
-
 .header-ul-spc {
   font-weight: 500;
   font-size: 16px;
@@ -107,7 +106,7 @@ h6 {
   background-color: #2e2f42;
 }
 
-.solutions .bigtext {
+.bigtext {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
