@@ -38,8 +38,8 @@ h6 {
 }
 /****************header*************/
 .header {
-  margin-top: -25.5px;
-  margin-bottom: -25.5px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .header-logo {
@@ -106,7 +106,8 @@ h6 {
 .sektone {
   background-color: #2e2f42;
 }
-.bigtext {
+
+.solutions .bigtext {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
