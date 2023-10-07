@@ -172,6 +172,7 @@ h6 {
 }
 /*************************sektion-spdt****************/
 .sektion-spdt {
+  padding: 120px 0;
 }
 .feature-spdt {
   padding-top: 120px;
@@ -225,7 +226,11 @@ h6 {
   margin-bottom: 72px;
 }
 .section-tiem {
+  padding: 120px 0;
   background: var(--CLOUD, #f4f4fd);
+}
+.div-hero {
+  padding: 32px 0;
 }
 .section-tiem-img {
   margin-bottom: 32px;
@@ -261,11 +266,11 @@ h6 {
 /*----------------------section-our-portfolio-----------*/
 
 .container-our-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .section-our-portfolio {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-portfolio {
   line-height: 1.11;
@@ -307,6 +312,7 @@ h6 {
 /*-------------------footer---------------*/
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-container {
   padding-top: 102px;
@@ -317,6 +323,7 @@ h6 {
 }
 .header-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-par {
   line-height: 1.5;
