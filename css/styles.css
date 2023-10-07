@@ -41,7 +41,6 @@ h6 {
   padding-left: 156px;
   padding-right: 156px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 /****************header*************/
@@ -50,6 +49,11 @@ h6 {
   padding-bottom: 26px;
   display: flex;
   align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -82,6 +86,7 @@ h6 {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+  padding: 0 15px;
 }
 .header-spd-link:hover,
 .header-spd-link:focus {
@@ -129,7 +134,7 @@ h6 {
 }
 .solutions {
   background-color: #2e2f42;
-  padding: 188px 472px 292px 472px;
+  padding: 188px 0;
 }
 .bigtext {
   font-size: 56px;
@@ -157,6 +162,7 @@ h6 {
   margin: 0 auto;
   display: block;
   border-radius: 4px;
+  min-width: 169px;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -170,6 +176,18 @@ h6 {
 .ul-spdt {
   display: flex;
   gap: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .spdt-list {
   width: calc((100% - 24px * 3) / 4);
