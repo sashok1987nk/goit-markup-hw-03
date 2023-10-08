@@ -282,8 +282,8 @@ h6 {
 }
 .div-servis {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-top: none;
 }
 .servis-liste {
   display: flex;
@@ -320,7 +320,9 @@ h6 {
 .footer-logo-text {
   color: #f4f4fd;
 }
-
+.header-logo-footer {
+  margin-bottom: 16px;
+}
 .footer-par {
   line-height: 1.5;
   color: #f4f4fd;
